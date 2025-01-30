@@ -4,7 +4,7 @@ from django.urls import reverse_lazy, reverse
 from django.views import generic
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-from .froms import DriverLicenseUpdateForm, CarCreateForm
+from .forms import DriverLicenseUpdateForm, CarCreateForm
 from .models import Driver, Car, Manufacturer
 
 
